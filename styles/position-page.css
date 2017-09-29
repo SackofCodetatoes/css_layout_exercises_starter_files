@@ -1,1 +1,57 @@
+nav {
+	padding-left: 60px;
+	padding-right: 60px;
+	position: fixed;
+	text-align: left;
+	background-color: gray;
+	width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	position: relative;
+	left: 60px;
+}
+
+nav .logo{
+	border-radius: 50%;
+	border: 1px solid black;
+	position: absolute;
+	left: 60px;
+	width: 50px;	
+}
+
+nav li::after{
+	content: ' |';
+}
+.background{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.dotted_box{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	top: 200px;
+}
+.corner{
+	width: 200px;
+	height: 200px;
+}
+.spacecat{
+	position: absolute;
+	left: -100px;
+	top: -100px;
+}
+.spacedog{
+	position: absolute;
+	right: -100px;
+	bottom: -100px;
+}
 
