@@ -16,21 +16,30 @@ nav li {
 nav .logo{
 	border-radius: 50%;
 	border: 1px solid black;
-	position: absolute;
 	left: 60px;
-	width: 50px;	
+	height: 50px;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
 }
-
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
 nav li::after{
 	content: ' |';
 }
-.background{
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
+/*.background*/body{
+	background: url(../images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
+	/*position: fixed;*/
+	/*top: 0;*/
+	/*left: 0;*/
 }
-
+main{
+	padding-top: 90px;
+	min-width: 1000px;
+}
 .dotted_box{
 	margin-left: auto;
 	margin-right: auto;
@@ -38,7 +47,7 @@ nav li::after{
 	border: 10px green dotted;
 	width: 600px;
 	height: 300px;
-	top: 200px;
+	margin-top: 150px;
 }
 .corner{
 	width: 200px;
