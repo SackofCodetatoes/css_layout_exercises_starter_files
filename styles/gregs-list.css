@@ -4,11 +4,8 @@ body{
 nav{
 	background: #E8E8E8;
 	border: 1px	solid #E0E0E0;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	text-align: left;
+	padding: 10px;
+	/*text-align: left;*/
 	width: 100%;
 	left: 0;
 	position: fixed;
@@ -44,7 +41,6 @@ nav li{
 }
 
 .search_block{
-	position: relative;
 	padding-top: 80px;
 	padding-left: 70px;
 }
