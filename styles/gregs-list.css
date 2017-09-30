@@ -1,3 +1,6 @@
+body{
+	font-family: Arial;
+}
 nav{
 	background: #E8E8E8;
 	border: 1px	solid #E0E0E0;
@@ -23,7 +26,6 @@ nav li{
 }*/
 .text{
 	text-decoration: none;
-	font-family: Arial;
 	font-size:	large;
 }
 .text:hover{
@@ -40,3 +42,74 @@ nav li{
 .right_text{
 	padding-right: 10px;
 }
+
+.search_block{
+	position: relative;
+	padding-top: 80px;
+	padding-left: 70px;
+}
+.search_box{
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	padding-left: 10px;
+	width: 400px;
+	font-size: medium;
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+
+}
+.search_icon{
+	width: 28px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: inline-block;
+	position: relative;
+	/*left: 5px;*/
+	top: 10px;
+}
+
+.pages{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	display: inline-block;
+	text-align:	middle;
+
+}
+
+.page_middle{
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.page_move{
+	font-size: 0;
+	border-radius: 4px;
+	border: 1px	solid #ccc;
+	width: 350px;
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+}
+.results{
+	padding: 0px;
+	padding-top: 20px;
+}
+.results_entry{
+	list-style: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.result_date, .location{
+	color: gray;
+	padding-right: 10px;
+}
+.job_title{
+	font-weight: bold;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
